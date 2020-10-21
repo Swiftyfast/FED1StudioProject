@@ -1,12 +1,86 @@
 ﻿body {
 }
 
-.MyClass{
-    color: darkturquoise;
-    font-size: 20px;
+/*
+    Color Scheme
+    Blue1: #15348F
+    Blue2: #5983FF
+    Blue3: #3760DB
+    Gold1: #8F6907
+    Gold2: #DBAE37
+    Grey: #808080
+    Silver: #c0c0c0
+    White: #FFFFFF
+*/
+
+.headerClass{
+    background-color: #808080;
+    padding: 3px 12px 3px 12px;
+    color: #DBAE37;
 }
 
-#TheOrderedList{
-    color: crimson;
-    font-weight: bold;
+.headerSubClass {
+    background-color: #15348F;
+    color: #FFFFFF;
+    border: 2px solid #8F6907;
+    padding: 6px;
 }
+
+.borderClass {
+    border: 2px solid #8F6907;
+    background-color: #C0C0C0;
+}
+
+.insideMainClass {
+    margin: 5px 5px 5px 25px;
+    background-color: #C0C0C0;
+}
+
+/* Navigation Styling*/
+nav ul li {
+    display: inline-block;
+}
+
+nav {
+    border: 2px solid #8F6907;
+    background-color: #808080;
+}
+
+    nav a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #15348F
+    }
+
+/*Navigation styling
+    This is imported from the other project.
+
+a:hover, a:active, a:focus {
+    color: gainsboro;
+    background-color: cadetblue;
+    text-decoration: underline;
+}
+
+nav a {
+    color: seagreen;
+}
+
+    nav a:hover, a:active, a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: aliceblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+    nav ul li {
+        display: inline-block;
+        /*make the nav links flow next to each other
+    }
+
+        nav ul li a {
+            padding: 10px;
+            display: block;
+        }*/
