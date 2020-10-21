@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.MyClass{
+    color: darkturquoise;
+    font-size: 20px;
+}
+
+#TheOrderedList{
+    color: crimson;
+    font-weight: bold;
+}
