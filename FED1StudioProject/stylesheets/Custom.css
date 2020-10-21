@@ -1,5 +1,4 @@
-﻿body {
-}
+﻿
 
 /*
     Color Scheme
@@ -11,7 +10,15 @@
     Grey: #808080
     Silver: #c0c0c0
     White: #FFFFFF
+
+    Fonts:
+    font-family: 'Bitter', serif;
+    font-family: 'Dancing Script', cursive;
 */
+
+body {
+    font-family: 'Bitter', serif;
+}
 
 .headerClass{
     background-color: #808080;
@@ -36,51 +43,36 @@
     background-color: #C0C0C0;
 }
 
-/* Navigation Styling*/
-nav ul li {
-    display: inline-block;
+.teamName {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
 }
+
+/* Navigation Styling*/
+
 
 nav {
     border: 2px solid #8F6907;
     background-color: #808080;
 }
 
-    nav a {
-        font-weight: bold;
-        text-decoration: none;
-        color: #15348F
-    }
+nav ul li {
+    display: inline-block;
+}
 
-/*Navigation styling
-    This is imported from the other project.
-
-a:hover, a:active, a:focus {
-    color: gainsboro;
-    background-color: cadetblue;
-    text-decoration: underline;
+nav ul li a {
+    padding: 10px;
+    display: block;
 }
 
 nav a {
-    color: seagreen;
+    font-weight: bold;
+    text-decoration: none;
+    color: #15348F
 }
 
-    nav a:hover, a:active, a:focus {
-        text-decoration: none;
-    }
-
-nav ul {
-    background-color: aliceblue;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+a:hover, a:active, a:focus {
+    background-color: #15348F;
+    color: #8F6907;
+    text-decoration: underline;
 }
-
-    nav ul li {
-        display: inline-block;
-        /*make the nav links flow next to each other
-    }
-
-        nav ul li a {
-            padding: 10px;
-            display: block;
-        }*/
