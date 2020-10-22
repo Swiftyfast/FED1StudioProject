@@ -66,9 +66,9 @@ header img{
     font-size: 36px;
 }
 
-section img{
+/*section img{
     width: 4em;
-}
+}*/
 /*switching to below, after complete remove above*/
 
 ul img {
@@ -78,6 +78,23 @@ ul img {
 .menuBlock li {
     display: inline-block;
     padding: 2em;
+}
+
+#teamPhotoSection {
+    background-color: #C0C0C0;
+    width: 45%;
+    float: left;
+    padding-right: 1em;
+}
+
+#teamBioSection {
+    background-color: #C0C0C0;
+    width: 45%;
+    float: right;
+}
+
+#teamPhotoSection img {
+    width: 10em;
 }
 
 /* Navigation Styling*/
