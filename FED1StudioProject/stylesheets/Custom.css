@@ -20,7 +20,9 @@ body {
     font-family: 'Bitter', serif;
 }
 
-.headerClass{
+/*Header Styling*/
+
+header{
     background-color: #808080;
     padding: 3px 12px 3px 12px;
     color: #DBAE37;
@@ -33,9 +35,12 @@ body {
     padding: 6px;
 }
 
+/*Main Styling and Classes*/
+
 .borderClass {
     border: 2px solid #8F6907;
     background-color: #C0C0C0;
+    padding: 5px;
 }
 
 .insideMainClass {
@@ -46,6 +51,10 @@ body {
 .teamName {
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
+}
+
+{
+
 }
 
 /* Navigation Styling*/
@@ -75,4 +84,14 @@ a:hover, a:active, a:focus {
     background-color: #15348F;
     color: #8F6907;
     text-decoration: underline;
+}
+
+/*Footer Styling*/
+
+footer {
+    background-color: #15348F;
+    color: #FFFFFF;
+    border: 2px solid #8F6907;
+    border-radius: 0em 0em .4em .4em;
+    padding: 1em;
 }
