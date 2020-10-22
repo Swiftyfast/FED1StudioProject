@@ -20,6 +20,10 @@ body {
     font-family: 'Bitter', serif;
 }
 
+.clear {
+    clear: both;
+}
+
 /*Header Styling*/
 
 header{
@@ -33,6 +37,15 @@ header{
     color: #FFFFFF;
     border: 2px solid #8F6907;
     padding: 6px;
+    /*float: left;
+    margin-left: 25%;*/
+    margin-left: 16%;
+}
+
+header img{
+    float: left;
+    width: 15%;
+    margin-top: 1em;
 }
 
 /*Main Styling and Classes*/
@@ -53,8 +66,18 @@ header{
     font-size: 36px;
 }
 
-{
+section img{
+    width: 4em;
+}
+/*switching to below, after complete remove above*/
 
+ul img {
+    width: 4em;
+}
+
+.menuBlock li {
+    display: inline-block;
+    padding: 2em;
 }
 
 /* Navigation Styling*/
