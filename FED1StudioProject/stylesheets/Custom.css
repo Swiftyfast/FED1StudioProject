@@ -18,6 +18,7 @@
 
 body {
     font-family: 'Bitter', serif;
+    background-color: #C0C0C0;
 }
 
 .clear {
@@ -47,6 +48,18 @@ header img{
     width: 15%;
     margin-top: 1em;
 }
+
+.socialMediaClass {
+    text-align: right;
+}
+
+    .socialMediaClass a {
+        background-color: #8F6907;
+        color: #FFFFFF;
+        padding: 0em 1.5em 0em 1.5em;
+        margin: 0em .25em 0em .25em;
+        border-radius: .4em;
+    }
 
 /*Main Styling and Classes*/
 
@@ -95,7 +108,24 @@ ul img {
 
 #teamPhotoSection img {
     width: 10em;
+
+    /*float: right;*/
 }
+
+.menuTable{
+    vertical-align: middle;
+    white-space: normal;
+}
+
+    .menuTable img {
+        width: 8em;
+    }
+
+td{
+    width: 18em;
+    padding: 2em;
+}
+
 
 /* Navigation Styling*/
 
