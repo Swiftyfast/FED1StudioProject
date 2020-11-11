@@ -67,6 +67,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html5shiv-master\dist\html5shiv-printshiv.js" />
+    <Content Include="html5shiv-master\dist\html5shiv-printshiv.min.js" />
+    <Content Include="html5shiv-master\dist\html5shiv.js" />
+    <Content Include="html5shiv-master\dist\html5shiv.min.js" />
+    <Content Include="html5shiv-master\Gruntfile.js" />
+    <Content Include="html5shiv-master\src\html5shiv-printshiv.js" />
+    <Content Include="html5shiv-master\src\html5shiv.js" />
+    <Content Include="html5shiv-master\test\data\body-crash.jpg" />
+    <Content Include="html5shiv-master\test\data\iframed-tests.html" />
+    <Content Include="html5shiv-master\test\data\inline-mixed-media.css" />
+    <Content Include="html5shiv-master\test\data\inline-print-media.css" />
+    <Content Include="html5shiv-master\test\data\no-print.css" />
+    <Content Include="html5shiv-master\test\data\paramtracer.swf" />
+    <Content Include="html5shiv-master\test\data\print-styles.css" />
+    <Content Include="html5shiv-master\test\data\print.css" />
+    <Content Include="html5shiv-master\test\data\screen.css" />
+    <Content Include="html5shiv-master\test\highcharts\area-basic.html" />
+    <Content Include="html5shiv-master\test\highcharts\highcharts.js" />
+    <Content Include="html5shiv-master\test\html5shiv.html" />
+    <Content Include="html5shiv-master\test\iframe.1-1.html" />
+    <Content Include="html5shiv-master\test\iframe.1-2.html" />
+    <Content Include="html5shiv-master\test\iframe.1.html" />
+    <Content Include="html5shiv-master\test\index.html" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\dashboard.xml" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\iframe.html" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\test.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\testinit.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\testrunner.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\testsuite.css" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\data\versioncheck.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\index.html" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\unit\core.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\unit\manipulation.js" />
+    <Content Include="html5shiv-master\test\jquery-1.7.1\unit\traversing.js" />
+    <Content Include="html5shiv-master\test\mixed-test.html" />
+    <Content Include="html5shiv-master\test\object-test.html" />
+    <Content Include="html5shiv-master\test\perf.1.html" />
+    <Content Include="html5shiv-master\test\perf.2.html" />
+    <Content Include="html5shiv-master\test\qunit\qunit.css" />
+    <Content Include="html5shiv-master\test\qunit\qunit.js" />
+    <Content Include="html5shiv-master\test\style.all.css" />
+    <Content Include="html5shiv-master\test\style.css" />
+    <Content Include="html5shiv-master\test\style.print.css" />
+    <Content Include="html5shiv-master\test\unit\tests.js" />
     <Content Include="Menu.html" />
     <Content Include="Contact.html" />
     <Content Include="images\favicon.ico" />
@@ -79,6 +123,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html5shiv-master\.gitattributes" />
+    <Content Include="html5shiv-master\.gitignore" />
+    <Content Include="html5shiv-master\bower.json" />
+    <Content Include="html5shiv-master\composer.json" />
+    <Content Include="html5shiv-master\MIT and GPL2 licenses.md" />
+    <Content Include="html5shiv-master\package.json" />
+    <Content Include="html5shiv-master\readme.md" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

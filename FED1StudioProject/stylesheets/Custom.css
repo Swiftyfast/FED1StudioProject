@@ -19,6 +19,8 @@
 body {
     font-family: 'Bitter', serif;
     background-color: #C0C0C0;
+    background-image: url('../images/pizzalogo3.png');
+    background-size: cover;
 }
 
 .clear {
