@@ -19,7 +19,7 @@
 body {
     font-family: 'Bitter', serif;
     background-image: url('../images/pizzalogo3.png');
-    background-size: cover;
+    background-size: auto;
     background-color: #C0C0C0;
 }
 
@@ -172,3 +172,10 @@ footer {
     padding: 1em;
 }
 
+td {
+    border: 2px solid #C0C0C0;
+}
+
+td:hover {
+    border: 2px solid #8F6907;
+}
