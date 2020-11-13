@@ -118,6 +118,7 @@ ul img {
     /*float: right;*/
 }
 
+/* The main menu table*/
 .menuTable{
     vertical-align: middle;
     white-space: normal;
@@ -127,15 +128,44 @@ ul img {
         width: 8em;
     }
 
-td{
+    .menuTable td {
+        width: 18em;
+        padding: 2em;
+        border: 2px solid #C0C0C0;
+    }
+
+    .menuTable td:hover {
+        border: 2px solid #8F6907;
+    }
+
+/* the ingrediant tables below*/
+.ingrediantTable {
+    vertical-align: middle;
+    white-space: normal;
+}
+    .ingrediantTable td {
+        /*width: 18em;*/
+        padding: 2em;
+        border: 2px solid #8F6907;
+    }
+
+        .ingrediantTable td:hover {
+            border: 2px solid #15348F;
+            /*font-size: 2em;*/
+            color: #15348F;
+            font-weight: bold;
+        }
+
+.tdWideWidth {
     width: 18em;
-    padding: 2em;
+}
+
+.tdSmallWidth {
+    width: 6em;
 }
 
 
 /* Navigation Styling*/
-
-
 nav {
     border: 2px solid #8F6907;
     background-color: #808080;
@@ -172,10 +202,3 @@ footer {
     padding: 1em;
 }
 
-td {
-    border: 2px solid #C0C0C0;
-}
-
-td:hover {
-    border: 2px solid #8F6907;
-}
